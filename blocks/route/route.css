@@ -1,0 +1,14 @@
+@import url('__subtitle/route__subtitle.css');
+@import url('__title/route__title.css');
+@import url('__background/route__background.css');
+
+.route {
+    margin: 92px auto 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .route {
+        margin-top: 64px;
+    }
+}

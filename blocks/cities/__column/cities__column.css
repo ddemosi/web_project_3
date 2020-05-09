@@ -1,0 +1,4 @@
+.cities__column:last-child {
+    margin: 0;
+    padding: 17px 0 0 40px;
+}

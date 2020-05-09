@@ -1,0 +1,9 @@
+@import url('__cell/table__cell.css');
+@import url('__image/table__image.css');
+@import url('__info/table__info.css');
+
+.table {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-column-gap: 10px;
+}

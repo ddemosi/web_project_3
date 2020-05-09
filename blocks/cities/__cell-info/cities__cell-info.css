@@ -1,0 +1,23 @@
+.cities__cell-info {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .cities__cell-info {
+        font-size: 16px;
+        line-height: 26px;
+        max-width: 352px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cities__cell-info {
+        font-size: 16px;
+        line-height: 26px;
+        max-width: 288px;
+    }
+}

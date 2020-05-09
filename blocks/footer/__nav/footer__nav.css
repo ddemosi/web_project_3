@@ -1,0 +1,14 @@
+.footer__nav {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 41px;
+}
+
+@media screen and (max-width: 320px) {
+    .footer__nav {
+        display: flex;
+        flex-direction: column;
+    }
+}
