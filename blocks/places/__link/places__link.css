@@ -1,0 +1,19 @@
+.places__link {
+    text-decoration: none;
+    text-decoration-line: underline;
+    color: #fff;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.places__link:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 320px) {
+    .places__link {
+        display: none;
+    }
+}

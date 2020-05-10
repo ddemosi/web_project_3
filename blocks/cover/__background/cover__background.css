@@ -1,0 +1,55 @@
+.cover__background {
+    max-width: 1184px;
+   min-height: 740px; 
+   background-image: url('../../../images/image-route66.jpg');
+   color: #FFFFFF;
+   margin: 0 auto;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   position: relative;
+   object-fit: contain;
+ }
+
+
+ .cover__background:before {
+   content: "";
+   height: 100%;
+   width: 100%;
+   background: #000;
+   position: absolute;
+   top: 0;
+   left: 0;
+   opacity: .3;
+   transition-duration: .5s;
+ }
+ 
+ .cover__background:hover::before {
+   opacity: 0.8;
+ }
+
+     @media screen and (max-width:  1024px ) {
+   .cover__background{
+      max-width: 1024px;
+      min-height: 640px;
+ }
+  }
+    @media screen and (max-width: 768px)
+  {
+   .cover__background{
+      width: 768px;
+      min-height: 480px;
+ }
+  }
+
+   @media screen and (max-width: 320px) {
+     .cover__background{
+          width: 320px;
+          min-height: 200px;
+     }
+   }
+ 

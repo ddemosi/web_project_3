@@ -8,4 +8,14 @@ Still some stuff to work on:
 * Could use some sleep. Procrastinating is the worst.
 * I was part of the group that got the wrong design file. I deleted the original HTML, but there are some styles leftover.
 
+### Draft 2!
+
+* Realized that the objects in the design file actually had names... corrected names to appropriate specs.
+* Deleted all leftover CSS files from previous design with the wrong design file.
+* Fixed some of the device incompatiblity, but may need to add additional break points.
+* Moved folder structure to more BEM-friendly specs.
+
+
+Created with HTML and CSS
+
 ### Enjoy!

@@ -1,0 +1,11 @@
+.places__cell {
+    display: flex;
+    margin: 0 0 80px;
+}
+
+@media screen and (max-width: 320px) {
+    .places__cell {
+        flex-wrap: wrap;
+        margin: 0 0 48px;
+    }
+}

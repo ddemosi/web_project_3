@@ -1,0 +1,14 @@
+.places__url-marker {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.2em;
+    color: #aaaaaa
+}
+
+@media screen and (max-width: 320px) {
+    .places__url-marker {
+        display: none;
+    }
+}

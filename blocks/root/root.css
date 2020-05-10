@@ -1,38 +1,9 @@
-@font-face {
-    font-family: "Inter";
-    src: url('../../fonts/Inter-Regular.otf');
-}
-
-@font-face {
-    font-family: "Inter";
-    src: url('../../fonts/Inter-Bold.otf');
-    font-weight: bold;
-}
-
-@font-face {
-    font-family: "Inter";
-    src: url('../../fonts/Inter-Italic.otf');
-    font-style: italic;
-}
-
-/* @font-face {
-    font-family: "Inter Bold";
-    
-} */
-
-body {
-    background-color: #2a2c2f;
-    color: #ffffff;
-    max-width: 80vw;
-    margin: 0 auto;
-}
-
-@media screen and (max-width: 1024px) {
-    body {
-    max-width: 95vw;
-     }
-}
-
 ul {
     list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
 }
