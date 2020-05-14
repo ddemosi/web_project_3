@@ -19,6 +19,7 @@
         max-width: 340px;
         font-size: 42px;
         line-height: 46px;
+        padding-left: 16px;
     }
 }
 
@@ -27,5 +28,12 @@
         max-width: 288px;
         font-size: 32px;
         line-height: 35px;
+        
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .places__cell-title {
+        padding: 0 16px;
     }
 }

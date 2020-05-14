@@ -15,6 +15,15 @@ Still some stuff to work on:
 * Fixed some of the device incompatiblity, but may need to add additional break points.
 * Moved folder structure to more BEM-friendly specs.
 
+### Draft 3!
+
+Lots of major changes
+* Fixed the breaking layout. Took me forever to figure it out, but it looks way better than it did.
+* Added padding at breakpoints for certain elements, especially the places block. Looks better, but might not be to spec.
+
+Link to live site:
+
+
 
 Created with HTML and CSS
 

@@ -8,10 +8,23 @@
     z-index: 1;
 }
 
+/* @media screen and (max-width: 1024px) {
+    .cover__subtitle {
+        margin-bottom: 233px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__subtitle {
+        margin-bottom: 153px;
+    }
+} */
+
 @media screen and (max-width: 320px) {
     .cover__subtitle {
         font-size: 14px;
         line-height: 16px;
         max-width: 288px;
+        /* margin-bottom: 50px; */
     }
 }

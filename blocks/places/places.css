@@ -1,3 +1,4 @@
+@import url('__list/places__list.css');
 @import url('__cell-image/places__cell-image.css');
 @import url('__cell-info/places__cell-info.css');
 @import url('__cell-title/places__cell-title.css');
@@ -10,6 +11,7 @@
     padding-top: 72px;
     max-width: 984px;
     margin: 0 auto;
+    width: 100%; 
 }
 
 @media screen and (max-width: 1024px) {

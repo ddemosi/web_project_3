@@ -1,0 +1,30 @@
+.lead__image-subtitle {
+    max-width: 984px;
+    text-align: left;
+    margin: 11px 0px 0px;
+    padding: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 1024px) {
+    .lead__image-subtitle {
+        padding: 0 48px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead__image-subtitle {
+        padding: 0 24px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead__image-subtitle {
+        padding: 0 16px;
+    }
+}

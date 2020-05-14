@@ -23,10 +23,10 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
     .footer {
-        max-width: 320px;
+        max-width: 425px;
         flex-direction: column;
-        padding: 64px 16px 24px 0;
+        padding: 64px 16px 24px;
     }
 }

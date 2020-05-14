@@ -1,0 +1,11 @@
+ .page {   
+    width: 100%;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+    background-color: #2A2C2F;
+    font-family: 'Inter', Arial, sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    color: #ffffff;
+ }

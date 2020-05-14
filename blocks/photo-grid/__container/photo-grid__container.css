@@ -1,11 +1,13 @@
 .photo-grid__container {
-    padding: 0;
+    padding: 0 16px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    margin: 0 auto;
+    margin: 0;
     grid-gap: 16px;
     max-width: 1184px;
+    width: 100%;
+    justify-items: center;
 }
 
 @media screen and (max-width: 1024px) {
@@ -27,5 +29,6 @@
     .photo-grid__container {
         grid-template-columns: 1fr;
         grid-template-rows: auto;
+        grid-gap: 12px;
      }
 }
