@@ -22,8 +22,7 @@ Lots of major changes
 * Added padding at breakpoints for certain elements, especially the places block. Looks better, but might not be to spec.
 
 Link to live site:
-
-
+https://ddemosi.github.io/web_project_3/
 
 Created with HTML and CSS
 
