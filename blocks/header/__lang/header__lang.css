@@ -3,3 +3,15 @@
     display: flex;
     padding: 0;
 }
+
+@media screen and (max-width: 320px) {
+    .header__lang {
+        margin: 32px 16px 0 auto;
+    }
+}
+
+@media screen and (max-width: 255px){
+    .header__lang {
+    margin: 16px 0 0;
+}
+}

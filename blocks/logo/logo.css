@@ -12,5 +12,12 @@
     .logo {
         max-width: 156px;
         max-height: 36px; 
+        margin: 20px auto 0 16px;
+    }
+}
+
+@media screen and (max-width: 255px) {
+    .logo {
+        margin: 20px 0 0;
     }
 }

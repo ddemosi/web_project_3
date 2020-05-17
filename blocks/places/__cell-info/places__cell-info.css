@@ -3,6 +3,11 @@
     font-weight: normal;
     font-size: 18px;
     line-height: 30px;
+    margin: 0 0 24px;
+}
+
+.places__cell-info:last-child {
+    margin: 0;
 }
 
 @media screen and (max-width: 768px) {

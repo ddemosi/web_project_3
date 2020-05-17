@@ -1,10 +1,19 @@
+@import url('_extra_padding/places__url-marker_extra_padding.css');
+
 .places__url-marker {
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
-    line-height: 20px;
+    line-height: 12px;
     letter-spacing: 0.2em;
-    color: #aaaaaa
+    color: #aaaaaa;
+    margin: 30px 0 12px;
+}
+
+@media screen and (max-width: 768px) {
+    .places__url-marker {
+        margin-top: 0;
+    }
 }
 
 @media screen and (max-width: 320px) {

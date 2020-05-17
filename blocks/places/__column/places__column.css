@@ -4,7 +4,7 @@
 
 .places__column:last-child {
     margin: 0;
-    padding: 17px 0 0 40px;
+    padding: 0 0 0 40px;
     display: flex;
     flex-direction: column;
 }

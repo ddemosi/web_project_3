@@ -1,0 +1,27 @@
+.places__url-marker_extra_padding {
+    padding-top: 76px;
+}
+
+@media screen and (max-width: 768px) {
+    .places__url-marker_extra_padding {
+        padding-top: 0;
+    }
+}
+
+@media screen and (max-width: 707px) {
+    .places__url-marker_extra_padding {
+        padding-top: 55px;
+    }
+}
+
+@media screen and (max-width: 477px) {
+    .places__url-marker_extra_padding {
+        padding-top: 95px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .places__url-marker_extra_padding {
+        padding-top: 0px;
+    }
+}

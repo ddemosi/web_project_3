@@ -21,6 +21,13 @@ Lots of major changes
 * Fixed the breaking layout. Took me forever to figure it out, but it looks way better than it did.
 * Added padding at breakpoints for certain elements, especially the places block. Looks better, but might not be to spec.
 
+### Draft 4!
+
+* Added a breakpoint for the title to keep it from extended over the device-width.
+* Fixed static margins in the "places" block.
+* Other small recommended fixes.
+
+
 Link to live site:
 https://ddemosi.github.io/web_project_3/
 
