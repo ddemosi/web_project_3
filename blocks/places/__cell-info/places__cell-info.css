@@ -4,6 +4,8 @@
     font-size: 18px;
     line-height: 30px;
     margin: 0 0 24px;
+    padding: 0;
+    width: 100%;
 }
 
 .places__cell-info:last-child {
@@ -14,7 +16,6 @@
     .places__cell-info {
         font-size: 16px;
         line-height: 26px;
-        max-width: 352px;
     }
 }
 
@@ -22,7 +23,5 @@
     .places__cell-info {
         font-size: 16px;
         line-height: 26px;
-        max-width: 288px;
-        padding: 0 16px;
     }
 }

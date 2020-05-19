@@ -1,26 +1,26 @@
 .photo-grid__item {
-    max-width: 100%;
-    width: 100%;
+    max-width: 284px;
     height: auto;
     display: flex;
     justify-content: space-around;
     object-fit: cover;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1275px) {
     .photo-grid__item {
-        max-width: 300px;
+        width: 300px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1022px) {
     .photo-grid__item {
-        max-width: 352px;
+        width: 352px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 766px) {
     .photo-grid__item {
         max-width: 288px;
+        width: 100%;
     }
 }

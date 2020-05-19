@@ -3,7 +3,7 @@
 @import url('__subtitle/lead__subtitle.css');
 @import url('__title/lead__title.css');
 
-.lead {
+.lead { 
     display: flex;
     flex-direction: column;
     max-width: 984px;

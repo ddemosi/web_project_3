@@ -1,0 +1,12 @@
+.width-large {
+    width: calc(100% - 48px*2);
+    max-width: 1184px;
+}
+
+@media screen and (max-width: 1024px) {
+    .width-large {
+        max-width: 1024px;
+        width: 100%;
+    }
+}
+

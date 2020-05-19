@@ -3,31 +3,14 @@
 @import url('__cell-info/places__cell-info.css');
 @import url('__cell-title/places__cell-title.css');
 @import url('__cell/places__cell.css');
-@import url('__column/places__column.css');
+@import url('__url-container/places__url-container.css');
+@import url('__content-container/grid__content-container.css');
 @import url('__link/places__link.css');
 @import url('__url-marker/places__url-marker.css');
 
 .places {
-    padding-top: 72px;
+    padding: 0;
     max-width: 984px;
     margin: 0 auto;
     width: 100%; 
-}
-
-@media screen and (max-width: 1024px) {
-    .places {
-        max-width: 928px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .places {
-        max-width: 720px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .places {
-        max-width: 288px;
-    }
 }

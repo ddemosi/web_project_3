@@ -27,6 +27,16 @@ Lots of major changes
 * Fixed static margins in the "places" block.
 * Other small recommended fixes.
 
+### Draft 5!
+
+* Switched outer margins to a calculated function instead of a finite value through separate "width" classes as per Liza's recommendation.
+* Fixed footer text errors
+* Switched logo to .svg
+* Switched "places" block to a grid type layout instead of a multi-column flexbox
+* Switched "cover" block to finite values as per reviewer's request
+* Modified "photo-grid" to contain finite picture widths and modified grid to be responsive to the static widths
+* Re-added font for styles of font-weight: 900
+
 
 Link to live site:
 https://ddemosi.github.io/web_project_3/

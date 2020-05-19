@@ -10,7 +10,7 @@
     }
 }
 
-@media screen and (max-width: 255px){
+@media screen and (max-width: 300px){
     .header__lang {
     margin: 16px 0 0;
 }

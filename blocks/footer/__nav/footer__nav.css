@@ -3,15 +3,16 @@
     list-style: none;
     padding: 0;
     margin: 0;
-    font-family: Inter;
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
-    line-height: 41px;
+    font-size: 16px;
+    line-height: 18px;
 }
 
 @media screen and (max-width: 320px) {
     .footer__nav {
         flex-direction: column;
+        font-size: 24px;
+        line-height: 24px;
     }
 }

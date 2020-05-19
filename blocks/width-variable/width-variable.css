@@ -1,0 +1,23 @@
+.width-variable {
+    width: calc(100% - 48px*2);
+    max-width: 1184px;
+}
+
+@media screen and (max-width: 1024px) {
+    .width-variable {
+        max-width: 984px;
+        width: calc(100% - 48px*2);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .width-variable {
+        width: calc(100% - 24px*2);
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .width-variable {
+        width: calc(100% - 16px*2);
+    }
+}
