@@ -37,6 +37,13 @@ Lots of major changes
 * Modified "photo-grid" to contain finite picture widths and modified grid to be responsive to the static widths
 * Re-added font for styles of font-weight: 900
 
+### Draft 6!
+
+* Fixed bug in photo-grid picture width.
+* Corrected miscellaneous font styles
+* Fixed pictures in the "places" heading to be full width
+* Other miscellaneous bug fixes
+
 
 Link to live site:
 https://ddemosi.github.io/web_project_3/

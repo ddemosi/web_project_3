@@ -1,5 +1,5 @@
 .photo-grid__item {
-    max-width: 284px;
+    width: 284px;
     height: auto;
     display: flex;
     justify-content: space-around;
@@ -15,10 +15,11 @@
 @media screen and (max-width: 1022px) {
     .photo-grid__item {
         width: 352px;
+        
     }
 }
 
-@media screen and (max-width: 766px) {
+@media screen and (max-width: 763px) {
     .photo-grid__item {
         max-width: 288px;
         width: 100%;

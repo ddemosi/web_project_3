@@ -16,7 +16,11 @@
 }
 
 @media screen and (max-width: 320px) {
-    .width-small {
+    .width-small:not(.places) {
         width: calc(100% - 16px*2);
+    }
+
+    .width-small {
+        width: 100%;
     }
 }
